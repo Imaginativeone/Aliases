@@ -1,0 +1,18 @@
+# Aliases
+
+# GIT ------------------------------------------------------------------------------------------------
+alias clearbranch="clear && git branch"
+alias status="git status"
+alias clearbranch="clear && git branch"
+alias cleanlog="git log --oneline -20"
+# ----------------------------------------------------------------------------------------------------
+
+# UDEMY -----------------------------------------------------------------------------------------------
+alias nextsectionbranch="echo git checkout -b Section-NNST-PPP%-LNN-HHMMSS-Topic"
+alias nextvideobranch="echo git checkout -b VNNNTTT-PPP%-SS-NN-ST-PPP%-MMSS-Topic"
+alias deletevideobranches="echo git branch -d `git branch | grep "V[0-9][0-9][0-9][0-9][0-9][0-9]\-"`"
+# ----------------------------------------------------------------------------------------------------
+
+# Software Development -------------------------------------------------------------------------------
+alias udemyloc="cd ~/Documents/Software-Development/Training/Udemy-Max-Vue-3/routing-01-starting-setup/"
+# ----------------------------------------------------------------------------------------------------
