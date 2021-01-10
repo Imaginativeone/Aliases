@@ -8,8 +8,8 @@ alias cleanlog="git log --oneline -20"
 # ----------------------------------------------------------------------------------------------------
 
 # UDEMY -----------------------------------------------------------------------------------------------
-alias nextsectionbranch="echo git checkout -b Section-NNST-PPP%-LNN-HHMMSS-Topic"
-alias nextvideobranch="echo git checkout -b VNNNTTT-PPP%-SS-NN-ST-PPP%-MMSS-Topic"
+alias newsectionbranch="echo git checkout -b Section-NNST-PPP%-LNN-HHMMSS-Topic"
+alias newvideobranch="echo git checkout -b VNNNTTT-PPP%-SS-NN-ST-PPP%-MMSS-Topic"
 alias deletevideobranches="echo git branch -d `git branch | grep "V[0-9][0-9][0-9][0-9][0-9][0-9]\-"`"
 # ----------------------------------------------------------------------------------------------------
 
