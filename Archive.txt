@@ -3,7 +3,6 @@
 # GIT ------------------------------------------------------------------------------------------------
 alias clearbranch="clear && git branch"
 alias status="git status"
-alias clearbranch="clear && git branch"
 alias cleanlog="git log --oneline -20"
 # ----------------------------------------------------------------------------------------------------
 
